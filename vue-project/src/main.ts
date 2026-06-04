@@ -1,8 +1,5 @@
 import './assets/main.css'
-
 import { createApp } from 'vue'
-import App from './App.vue'
-import "@/style/main.css"
+import ComputHomework from './Comput-homework.vue' // ✅ matches exact filename
 
-
-createApp(App).mount('#app')
+createApp(ComputHomework).mount('#comput-homework')
